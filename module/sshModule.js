@@ -19,8 +19,8 @@ let SSHModule = SSHModule_1 = class SSHModule extends engine_1.Module {
         return [{ id: this.moduleOptions.id, type: index_1.SshProvider }];
     }
 };
-SSHModule = SSHModule_1 = tslib_1.__decorate([
-    engine_1.module()
+SSHModule = SSHModule_1 = (0, tslib_1.__decorate)([
+    (0, engine_1.module)()
 ], SSHModule);
 exports.SSHModule = SSHModule;
 //# sourceMappingURL=sshModule.js.map

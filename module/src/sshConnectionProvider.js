@@ -20,12 +20,12 @@ let SshProvider = class SshProvider {
         return new sshConnection_1.SshConnection(ssh);
     }
 };
-tslib_1.__decorate([
-    inject_1.inject()
+(0, tslib_1.__decorate)([
+    (0, inject_1.inject)()
 ], SshProvider.prototype, "moduleOptions", void 0);
-SshProvider = tslib_1.__decorate([
-    inject_1.define(),
-    inject_1.singleton()
+SshProvider = (0, tslib_1.__decorate)([
+    (0, inject_1.define)(),
+    (0, inject_1.singleton)()
 ], SshProvider);
 exports.SshProvider = SshProvider;
 //# sourceMappingURL=sshConnectionProvider.js.map

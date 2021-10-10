@@ -1,7 +1,8 @@
 import {singleton, define, inject} from "@appolo/inject";
 import {NodeSSH, SSHExecCommandOptions, SSHExecCommandResponse, SSHExecOptions} from "node-ssh";
 import {SFTPWrapper} from "ssh2";
-import {TransferOptions} from "ssh2-streams";
+import {TransferOptions} from "./IOptions";
+
 
 
 export class SshConnection {
