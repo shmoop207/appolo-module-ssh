@@ -1,0 +1,26 @@
+{
+  "name": "@appolo/ssh",
+  "version": "8.0.4",
+  "description": "SSH client module",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@appolo/engine": "^8.0.23",
+    "@appolo/utils": "^8.0.30",
+    "node-ssh": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/ssh2": "^0.5.48",
+    "typescript": "^4.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmoop207/appolo-module-ssh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
