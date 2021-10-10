@@ -1,6 +1,6 @@
 {
   "name": "@appolo/ssh",
-  "version": "8.0.4",
+  "version": "8.0.5",
   "description": "SSH client module",
   "main": "index.js",
   "publishConfig": {
